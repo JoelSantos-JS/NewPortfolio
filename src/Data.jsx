@@ -75,11 +75,7 @@ export const skills = [
 ];
 
 export const sections = [
-  {
-    title: "YouTube Content Creator for Web Development",
-    content:
-      "I create videos on YouTube about web development topics such as HTML, CSS, JavaScript, React, and TypeScript.",
-  },
+
   {
     title: "Backend Developer",
     content:
