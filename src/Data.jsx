@@ -33,20 +33,20 @@ export const navigation = [
 export const social = [
 
   {
-    icon: <FiTwitter />,
-    href: "https://twitter.com/GHarakis",
+    icon: <FiTwitter size={28} />,
+    href: "https://twitter.com/LetoxyTv",
     color: "text-blue-500",
     colorHover: "hover:text-blue-900",
   },
   {
-    icon: <FiGithub />,
-    href: "https://github.com/harakisgeorge",
+    icon: <FiGithub size={28} />,
+    href: "https://github.com/JoelSantos-JS",
     color: "text-white",
     colorHover: "hover:text-gray-500",
   },
   {
-    icon: <FiLinkedin />,
-    href: "https://www.linkedin.com/feed/",
+    icon: <FiLinkedin size={28} />,
+    href: "https://www.linkedin.com/in/joelsantos1/",
     color: "text-blue-500",
     colorHover: "hover:text-blue-900",
   },
