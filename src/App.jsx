@@ -7,7 +7,6 @@ import About from './components/About/About'
 import Skills from './components/Skills/Skils'
 import Portfolio from './components/Portfolio/Portfolio'
 import Contact from './components/Contact/Contact'
-import Footer from './components/Footer'
 
 
 
@@ -25,7 +24,7 @@ function App() {
       <Skills />
       <Portfolio />
       <Contact />
-      <Footer />
+
     </>
   )
 }
