@@ -7,9 +7,13 @@ import glasses from '../../assets/img/logos/glasses.svg'
 
 function Header() {
   return (
-    <div>
-     <img src={glasses} alt="" />
-    </div>
+    <header className='h-20 flex bg-black items-center fixed top-0 w-full z-10 text-white'>
+        <div className='container mx-auto flex justify-between items-center h-full lg:justify-between'>
+
+          
+
+        </div>
+    </header>
   )
 }
 
