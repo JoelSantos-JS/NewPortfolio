@@ -1,7 +1,5 @@
-import React from 'react'
 import NavBar from './components/NavBar'
 import Socials from './components/Socials'
-import logoBigWhite from '../../assets/img/logos/logoBigWhite.svg'
 import glasses from '../../assets/img/logos/glasses.svg'
 
 
