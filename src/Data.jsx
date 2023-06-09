@@ -81,12 +81,15 @@ export const skills = [
   },
 ];
 
-export const sections = [
+export const back = [
   {
     title: "Backend Developer",
     content:
       "I have experience developing backends using Express, Node.js, Java Spring, and SQL databases such as MySQL and PostgreSQL.",
   },
+];
+
+export const sections = [
   {
     title: "Frontend Developer",
     content: [

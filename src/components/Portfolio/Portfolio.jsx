@@ -18,7 +18,7 @@ function Portfolio() {
             transition={{ duration: 0.5 }}
           >
             <h2 className="section-title ">My lastest work</h2>
-            <p className="section-subtitle mb-8">
+            <p className="section-subtitle mb-8 text-2xl">
               {" "}
               Check out my latest projects
             </p>
