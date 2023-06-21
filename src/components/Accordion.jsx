@@ -1,7 +1,8 @@
 import { useState } from "react";
 
-import { back, sections } from "../Data";
+import { sections, sectionsBack } from "../Data";
 import Project from "./Project";
+import ProjectsBack from "./Projects";
 function Accordion() {
   const [active, setActive] = useState(null);
   const [active1, setActive1] = useState(null);
@@ -27,8 +28,9 @@ function Accordion() {
   return (
     <div className="w-full mx-auto ">
       <div>
-        {back.map((section, index) => (
+        {sectionsBack.map((section, index) => (
           <div className="mb-2 " key={index}>
+            
             <button
               type="button"
               onClick={() => toggle(index)}
@@ -38,11 +40,8 @@ function Accordion() {
               <span>{active1 === index ? "+" : "-"}</span>
             </button>
 
-            {active1 === index && (
-              <p className="flex flex-col justify-center items-center text-white  text-2xl">
-                {section.content}
-              </p>
-            )}
+            {active1 === index && <ProjectsBack/>}
+          
           </div>
         ))}
       </div>
