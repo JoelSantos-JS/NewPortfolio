@@ -14,7 +14,7 @@ function ProjectsBack() {
         />
 <Projects
           image={employment}
-          link2="https://github.com/JoelSantos-JS/Backend-CodeBurguer"
+          link2="https://github.com/JoelSantos-JS/Employee-Management"
           title="Backend CodeBurger"
           text="O projeto utiliza: Java and Spring boot."
         />
