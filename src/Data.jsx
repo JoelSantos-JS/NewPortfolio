@@ -1,20 +1,20 @@
 //  icons
-import { FiTwitter, FiGithub, FiLinkedin } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 
 // skills images
 import SkillImg1 from "./assets/img/skills/html.png";
-import SkillImg2 from "./assets/img/skills/javascript.png";
-import SkillImg3 from "./assets/img/skills/typescript.png";
-import SkillImg4 from "./assets/img/skills/react.png";
 import SkillImg5 from "./assets/img/skills/java.png";
+import SkillImg2 from "./assets/img/skills/javascript.png";
+import SkillImg4 from "./assets/img/skills/react.png";
 import SkillImg6 from "./assets/img/skills/sql.png";
+import SkillImg3 from "./assets/img/skills/typescript.png";
 
 import github from "./assets/projects/23.gif";
 import portfolio from "./assets/projects/port.gif";
 
-import massas from "./assets/projects/massas.png";
 import desafio from "./assets/projects/17.gif";
 import burguer from "./assets/projects/burguer.jpeg";
+import massas from "./assets/projects/massas.png";
 import blog from "./assets/projects/sd.png";
 
 // navigation
@@ -137,3 +137,20 @@ export const sections = [
     ],
   },
 ];
+
+
+export const sectionsBack = [
+  
+  {
+    title: "Backend Developer",
+    content: [
+      {
+        image: burguer,
+        link2: "https://github.com/JoelSantos-JS/Backend-CodeBurguer",
+        title: "CodeBurger",
+        text: "O projeto utiliza: JavaScript  Node,Yarn,Express,Nodemon,Sucrase,Sequelize,Bcrypt,Jwt,Yup,Postgres,Mongodb,Multer,Uuid,Prettier,Eslint"
+      },
+    ]
+  }
+
+]
